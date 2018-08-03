@@ -1,0 +1,57 @@
+h1{
+    font-family: 'Anton', sans-serif;
+    /*font-family: 'Abel', sans-serif;*/
+    font-size: 48px;
+    text-align: center;
+}
+h2{
+    font-family: 'Anton', sans-serif;
+    font-size: 28px;
+    text-align: center;
+}
+
+/*small*/
+@media (min-width: 576px){
+    h1{
+        font-size: 40px;
+    }
+    #visual-design-h{
+        text-align: right;
+    }
+    #web-dev-h{
+        text-align: left;
+
+    }
+
+    h2{
+    /*font-size: 32px;*/
+
+
+    }
+}
+
+/*medium*/
+@media (min-width: 768px) {
+    h1{
+        font-size: 48px;
+    }
+
+}
+
+/*large*/
+@media (min-width: 992px) {
+    h1{
+        font-size: 48px;
+    }
+    h2{
+        font-size: 40px;
+    }
+}
+
+/*extra large*/
+@media (min-width: 1200px){
+    h1{
+        font-size: 68px;
+    }
+
+}
