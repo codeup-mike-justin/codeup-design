@@ -79,6 +79,17 @@ img {
         font-size: 48px;
     }
 
+    .featured {
+        font-size: .3em;
+    }
+    
+    .small-icons {
+        -webkit-transform: scale(.5);
+        -moz-transform: scale(.5);
+        -ms-transform: scale(.5);
+        -o-transform: scale(.5);
+        transform: scale(.5);
+    }
 }
 
 /*large*/
@@ -88,6 +99,10 @@ img {
     }
     h2 {
         font-size: 32px;
+    }
+
+    .featured {
+        font-size: 1rem;
     }
 }
 
