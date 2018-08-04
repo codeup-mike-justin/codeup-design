@@ -83,11 +83,6 @@ img {
 
     h2 {
     /*font-size: 32px;*/
-
-    }
-
-    .icons {
-        transform: scale(1);
     }
 }
 
@@ -98,15 +93,7 @@ img {
     }
 
     .featured {
-        font-size: .3em;
-    }
-    
-    .small-icons {
-        -webkit-transform: scale(.5);
-        -moz-transform: scale(.5);
-        -ms-transform: scale(.5);
-        -o-transform: scale(.5);
-        transform: scale(.5);
+        font-size: .7em;
     }
 }
 
