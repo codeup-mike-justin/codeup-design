@@ -1,20 +1,24 @@
-body{
-    background-color: #e6e6e6;
+body {
+    background-color: #f0f0f0;
 }
 
-h1{
+p {
+    font-family: 'Abel', sans-serif;
+}
+
+h1 {
     font-family: 'Anton', sans-serif;
     /*font-family: 'Abel', sans-serif;*/
     font-size: 48px;
     text-align: center;
 }
-h2{
+h2 {
     font-family: 'Anton', sans-serif;
     font-size: 28px;
     text-align: center;
 }
 
-.icons{
+.icons {
     /*border-radius: 50%;*/
     font-family: 'Anton', sans-serif;
     background-color:#e6563b;
@@ -25,43 +29,53 @@ h2{
     /*transform: scale(1.7);*/
 }
 
-.icon-spacing{
+.icon-spacing {
     height: 150px;
     width: 150px;
 }
 
-h5{
+h5 {
     font-size: 1em !important;
 
 }
 
+img {
+    width: 90%;
+    border: 5px solid #e6e6e6;
+    border-radius: 4px;
+}
+
+.small-icons {
+    font-family: 'Anton', sans-serif;
+    font-size: 10px;
+}
 
 /*small*/
 @media (min-width: 576px){
-    h1{
+    h1 {
         font-size: 40px;
     }
-    #visual-design-h{
+    #visual-design-h   {
         text-align: right;
     }
-    #web-dev-h{
+    #web-dev-h {
         text-align: left;
 
     }
 
-    h2{
+    h2 {
     /*font-size: 32px;*/
 
     }
 
-    .icons{
+    .icons {
         transform: scale(1);
     }
 }
 
 /*medium*/
 @media (min-width: 768px) {
-    h1{
+    h1 {
         font-size: 48px;
     }
 
@@ -69,18 +83,18 @@ h5{
 
 /*large*/
 @media (min-width: 992px) {
-    h1{
+    h1 {
         font-size: 48px;
     }
-    h2{
-        font-size: 40px;
+    h2 {
+        font-size: 32px;
     }
 }
 
 /*extra large*/
 @media (min-width: 1200px){
-    h1{
-        font-size: 68px;
+    h1 {
+        font-size: 64px;
     }
 
 }
