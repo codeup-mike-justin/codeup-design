@@ -69,6 +69,33 @@ img {
     font-size: 10px;
 }
 
+/*The List*/
+.the-list-img{
+    float:left;
+    width: 75px;
+    height: 75px;
+}
+
+.the-list-text{
+    font-family: 'Anton', sans-serif;
+}
+
+.twitter-logo{
+    height: 35px;
+    width: 35px;
+    border: 0px;
+}
+
+.lor-tweet{
+    clear: both;
+    font-family: 'Abel', sans-serif;
+}
+
+.tw-the-last{
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+}
+
 /*small*/
 @media (min-width: 576px) {
     h1 {
@@ -117,7 +144,12 @@ img {
     .featured {
         font-size: 1rem;
     }
+
+    .the-list-text{
+        font-family: 'Anton', sans-serif;
+    }
 }
+
 
 /*extra large*/
 @media (min-width: 1200px) {
