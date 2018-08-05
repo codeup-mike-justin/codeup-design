@@ -126,9 +126,25 @@ img {
         font-size: 48px;
     }
 
+    h2{
+        font-size: 20px;
+    }
+
     .featured {
         font-size: .7em;
     }
+
+    .the-list-img{
+        height: 50px;
+        width: 50px;
+    }
+
+    .lor-tweet{
+        font-size: 14px;
+    }
+
+
+
 }
 
 /*large*/
@@ -138,7 +154,7 @@ img {
     }
 
     h2 {
-        font-size: 32px;
+        font-size: 27px;
     }
 
     .featured {
