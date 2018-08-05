@@ -1,5 +1,18 @@
 body {
     background-color: #f0f0f0;
+    background-image: url(../img/header.png);
+    background-repeat: no-repeat;
+    background-position: 0 18px;
+    background-size: 100% 65px;
+}
+
+#logo {
+    height: 105px !important;
+    width: 105px !important;
+}
+
+.nav-row {
+    font-family: 'Abel', sans-serif;
 }
 
 p {
@@ -13,7 +26,11 @@ h1 {
     text-align: center;
 }
 
-h2 {
+.page-title {
+    font-size: 2rem !important;
+}
+
+.page-h2 {
     font-family: 'Anton', sans-serif;
     font-size: 28px;
     text-align: center;
@@ -58,7 +75,7 @@ h5 {
 
 }
 
-img {
+.article-images {
     width: 90%;
     border: 5px solid #e6e6e6;
     border-radius: 4px;
@@ -111,10 +128,6 @@ img {
 
     }
 
-    h2 {
-        /*font-size: 32px;*/
-    }
-
     .featured {
         font-size: .7em;
     }
@@ -126,7 +139,7 @@ img {
         font-size: 48px;
     }
 
-    h2{
+    .page-h2{
         font-size: 20px;
     }
 
