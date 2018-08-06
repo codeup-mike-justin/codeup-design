@@ -32,7 +32,7 @@ h1 {
 
 .page-h2 {
     font-family: 'Anton', sans-serif;
-    font-size: 28px;
+    font-size: 32px;
     text-align: center;
 }
 
@@ -153,7 +153,8 @@ h5 {
     }
 
     .lor-tweet{
-        font-size: 14px;
+        font-size: 12px;
+        width: 350px;
     }
 
 
@@ -177,6 +178,17 @@ h5 {
     .the-list-text{
         font-family: 'Anton', sans-serif;
     }
+    .the-list-img{
+        height: 65px;
+        width: 65px;
+    }
+    .page-h2 {
+        font-size: 28px;
+        font-family: 'Anton', sans-serif;
+    }
+    .lor-tweet{
+        width: 350px;
+    }
 }
 
 
@@ -186,4 +198,20 @@ h5 {
         font-size: 64px;
     }
 
+    .the-list-img {
+        height: 75px;
+        width: 75px;
+    }
+
+    .page-h2 {
+        font-size: 32px;
+        font-family: 'Anton', sans-serif;
+    }
+
+    .lor-tweet {
+        width: 350px;
+    }
 }
+
+
+
